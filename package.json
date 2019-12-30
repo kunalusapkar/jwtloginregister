@@ -1,0 +1,27 @@
+{
+  "name": "auth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start:dev": "nodemon server.js",
+    "start:prod": "SET NODE_ENV=production&&nodemon server.js",
+    "test": "Test"
+  },
+  "author": "Kunal",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.4",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "express-rate-limit": "^5.0.0",
+    "handlebars": "^4.5.3",
+    "helmet": "^3.21.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.8.1",
+    "nodemailer": "^6.4.2",
+    "validator": "^12.1.0"
+  }
+}
